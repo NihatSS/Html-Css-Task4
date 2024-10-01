@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-image: url(../images/hero-blog-plex-desktop-1024x576.jpg);
+    background-position: center;
+    background-size: cover;
+} */
+
+.background{
+    position: relative;
+    height: 100vh;
+}
+
+
+.notification{
+    height: 75px;
+    background-color: goldenrod;
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.7)
+}
+
+.notification p{
+    color: white;
+}
+
+
+.notification a{
+    text-decoration: none;
+    transition: all 0.25s;
+    color: rgba(255, 255, 255, 0.7)
+}
+
+.notification a:hover{
+    color: black;
+}
+
+.notification{
+    padding-left: 100px;
+}
+
+.navbar{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .logo{
+    margin-left: 100px;
+}
+
+.navbar .logo a img{
+    width: 100px;
+    height: 50px;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-right: 100px;
+}
+
+.navbar .info ul li a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.25s;
+}
+
+.navbar .info ul li a:hover{
+    font-size: 20px;
+}
+
+.autentification{
+    gap: 20px;
+}
+
+.autentification a{
+    text-decoration: none;
+    color: black;
+}
+
+.autentification .sign-up{
+    padding: 10px 20px;
+    background-color: goldenrod;
+    border-radius: 20px;
+    transition: all 0.25s;
+    color: white;
+}
+
+.autentification .sign-up:hover{
+    background-color: black;
+    color: white;
+}
+
+main #title{
+    height: 300px;
+}
+
+main #title .title-header,.title-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main #title .title-header{
+    height: 150px;
+    align-items: end;
+    font-size: 30px;
+}
+
+main #card-list .card .offer span{
+    opacity: 0.8;
+}
+
+main #title .title-description{
+    margin-top: 20px;
+    opacity: 0.8;
+}
+
+main #card-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+main #card-list .card{
+    width: 375px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+
+main #card-list .card .icon{
+    font-size: 20px;
+    color: black;
+}
+
+
+main #card-list .card .button{
+    margin-top: 20px;
+}
+
+main #card-list .card .button a{
+    text-decoration: none;
+    color: white;
+    background-color: goldenrod;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.25s;
+}
+
+main #card-list .card .button a:hover{
+    background-color: black;
+}

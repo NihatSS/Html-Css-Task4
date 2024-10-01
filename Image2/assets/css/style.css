@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: main-font;
+    src: url(../fonts/RubikMarkerHatch-Regular.ttf);
+}
+
+.navbar {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar .logo {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.navbar .template {
+    font-size: 12px;
+    gap: 100px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .button a {
+    background-color: rgb(96, 96, 236);
+    padding: 5px 15px;
+    border-radius: 20px;
+    transition: 0.25s;
+}
+
+.navbar .button a:hover {
+    background-color: white;
+    color: black;
+}
+
+.navbar .media ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.navbar .media ul li i {
+    color: rgb(96, 96, 236);
+    transition: 0.25s;
+}
+
+.navbar .media ul li i:hover {
+    color: white;
+}
+
+main {
+    background-color: rgb(102, 101, 101);
+    height: 80ch;
+    font-family: main-font;
+}
+
+main .event {
+    margin-left: 150px;
+    padding-top: 25px;
+}
+
+main .event img {
+    width: 1200px;
+    height: 200px;
+}
+
+main .event h1 {
+    color: rgb(204, 203, 203);
+    font-size: 50px;
+    margin-right: 20px;
+    position: absolute;
+    top: 175px;
+    right: 200px;
+}
+
+
+
+main .card {
+    width: 300px;
+    height: 600px;
+    margin-top: 50px;
+    background-color: white;
+}
+
+main .card .image img {
+    width: 100%;
+    height: 50%;
+}
+
+#card-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+main .card .card-info,.button{
+    padding: 10px;
+}
+
+main .card .button a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(90, 150, 233);
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
